@@ -1,4 +1,17 @@
-function alterar(){
-    document.getElementById("titulo").innerHTML = "Trocou o titulo";
-    document.getElementById("campo").value = "Trocou o campo";
+// function alterar(){
+//     document.getElementById("titulo").innerHTML = titulo;
+//     document.getElementById("campo").value = titulo;
+// }
+
+// alterar("Título de exemplo")
+
+
+function somar(x, y){
+    let total = x + y;
+
+    return total;
 }
+
+var resultado = somar(10, 15)
+
+console.log(resultado);
