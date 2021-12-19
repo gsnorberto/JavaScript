@@ -17,4 +17,6 @@ for(let i in carros){
 
 html += '</ul>'
 
-document.getelementById("demo").innerHTML = html;
+console.log(html);
+
+document.getElementById('demo').innerHTML = html;
