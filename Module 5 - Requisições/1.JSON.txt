@@ -1,0 +1,18 @@
+// JSON - JAVASCRIPT OBJECT NOTATION
+// Objeto JS Usado para fazer requisições, guardar e enviar informações
+
+//Forma de se comunicar com outras aplicações, mesmo que em linguagens diferentes
+
+let pessoa = {
+    nome: 'Bonieky',
+    idade: 90,
+    caracteristicas: ['sorridente', 'top', 'maravilhoso'],
+    estetica: {
+        altura: 900,
+        peso: 1.5
+    }
+}
+
+pessoa.nome // Bonieky
+pessoa.caracteristicas[1] // top
+pessoa.estetica.peso // 1.5

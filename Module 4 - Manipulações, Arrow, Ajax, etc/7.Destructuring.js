@@ -72,5 +72,5 @@ function criar(){
     return a;
 }
 
-let [a,b,c] = criar;
+let [a,b,c] = criar();
 console.log(a,b,c);
